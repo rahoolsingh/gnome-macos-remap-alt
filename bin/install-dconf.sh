@@ -56,11 +56,11 @@ gsettings reset org.gnome.desktop.wm.keybindings switch-to-workspace-right
 
 # Workspace switching is horizontal starting GNOME 40
 if (( GNOME_VERSION_INT >= 40 )); then
-  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Super>Left']"
-  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Super>Right']"
+  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<alt>Left']"
+  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<alt>Right']"
 else
-  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Super>Right']"
-  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Super>Left']"
+  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<alt>Right']"
+  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<alt>Left']"
 fi
 
 gsettings set org.gnome.desktop.wm.keybindings minimize "['<Primary>m']"

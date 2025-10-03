@@ -20,7 +20,7 @@
     "hotkey": {
         "modifiers": [
             "<shift>",
-            "<super>"
+            "<alt>"
         ],
         "hotKey": "<tab>"
     },
