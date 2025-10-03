@@ -10,7 +10,8 @@ if [ -f /usr/share/X11/xkb/symbols/pc.bak ]; then
 fi
 
 # Flip Super and Control keys - per user setting
-gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_lwin_lctl', 'ctrl:swap_rwin_rctl']"
+# gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_lwin_lctl', 'ctrl:swap_rwin_rctl']"
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swap_lalt_lctl','ctrl:swap_ralt_rctl']"
 
 # Install Autokey was here
 
